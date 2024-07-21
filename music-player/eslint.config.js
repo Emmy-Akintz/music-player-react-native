@@ -1,10 +1,10 @@
 module.exports = {
 	languageOptions: {
-		globals: {
-			node: 'readonly', // Equivalent to env.node: true
-			es2021: 'readonly', // Equivalent to env.es2021: true
-		},
-	},
+    globals: {
+      node: 'readonly', // Equivalent to env.node: true
+      es2021: 'readonly', // Equivalent to env.es2021: true
+    },
+  },
 	extends: [
 		"eslint:recommended",
 		"plugin:@typescript-eslint/recommended",

@@ -9,7 +9,7 @@ const SongsScreenLayout = () => {
             <Stack.Screen
                 name="index"
                 options={{
-                    ...StackScreenWithSearchBar,//57.55
+                    ...StackScreenWithSearchBar,
                     headerTitle: 'Songs'
                 }}
             />
